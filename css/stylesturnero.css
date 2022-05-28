@@ -1,0 +1,81 @@
+@font-face { 
+    font-family: "Altone"; 
+    src: url("../font/AltoneTrial-Regular.ttf"); 
+} 
+
+body {
+    background-image: url('../img/FondoVerdeAgua.jpg');
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Altone', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    border: 5px solid black;
+    border-bottom: 5px solid black;
+    align-items: center;
+    font-family: "Altone";
+    color: #DCF1EC;
+}
+
+.logo{
+    display: flex;
+    align-items: center;  
+}
+.logo img{
+   height: 110px;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+  }
+  nav a{
+     font-weight: 600;
+     padding-right: 10px;
+  }
+  nav a:hover{
+     color: #46C4A7;
+   }
+   @media (max-width:700px) {
+       header {
+           flex-direction: column;
+       }
+  }
+  nav {
+      padding: 10px, 0px;
+  }
+  caption {
+    padding: 20px;
+    font-style: italic;
+    caption-side: bottom;
+    color:#77958E;
+    text-align: center;
+}
+table {
+    width: 100%;
+     border-collapse: collapse; 
+    border: 4px solid #000000;
+    background-color: rgba(92, 107, 103, 0.5);
+}
+h2{
+    font-size: 20px;
+    background-color:#000000;
+    padding: 1px;
+    margin: 20px;
+    border: 2.5px solid #ffffff;
+    border-bottom: 2.5px solid #ffffff;
+    color:#ffffff ;
+    text-align:center;
+}
+th,tfoot,td{
+    border: 3px solid #3D2E29;
+    padding:5px;
+}
+
+th,
+tfoot {
+    text-align: center;
+}
