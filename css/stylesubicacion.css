@@ -23,30 +23,35 @@ header{
 
 .logo{
     display: flex;
-    align-items: center;  
+    align-items: center; 
+    padding: 25px 30px; 
 }
 .logo img{
    height: 110px;
 }
-a{
-    text-decoration: none;
-    color: #ffffff;
-  }
-  nav a{
-     font-weight: 600;
-     padding-right: 10px;
-  }
-  nav a:hover{
-     color: #46C4A7;
-   }
-   @media (max-width:700px) {
-       header {
-           flex-direction: column;
-       }
-  }
-  nav {
-      padding: 10px, 0px;
-  }
+
+nav a{
+   font-weight: 600;
+   padding-right: 10px;
+   text-decoration: none;
+  color: #ffffff;
+}
+nav a:hover{
+   color: #46C4A7;
+ }
+@media (max-width:500px) {
+     header {
+         flex-direction: column;
+         
+     }
+     .logo{
+        padding: 25px 30px;
+    }
+}
+nav {
+    padding: 10px, 0px;
+    
+}
 .imgPadel{
     width: 800px;
     padding-left: 265px;
