@@ -1,129 +1,80 @@
-@font-face { 
-    font-family: "Altone"; 
-    src: url("../font/AltoneTrial-Regular.ttf"); 
-} 
-html{
-    scroll-behavior: smooth;
-}
 body {
-    background-image: url('../img/FondoVerdeAgua.jpg');
-    margin: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-family: 'Altone', sans-serif;
-}
+  background-image: url("../img/FondoVerdeAgua.jpg");
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Altone', sans-serif; }
 
-header{
-    display: flex;
-    justify-content: space-between;
-    background-color: #000000;
-    border: 5px solid black;
-    border-bottom: 5px solid black;
-    align-items: center;
-    font-family: "Altone";
-    color: #DCF1EC;
-}
+html {
+  scroll-behavior: smooth; }
 
-.logo{
-    display: flex;
-    align-items: center;  
-}
-.logo img{
-   height: 110px;
-}
-.header .logo{
-    padding: 25px 30px;
-}
-nav a{
-   font-weight: 600;
-   padding-right: 10px;
-   text-decoration: none;
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #000000;
+  border: 5px solid black;
+  border-bottom: 5px solid black;
+  align-items: center;
+  color: #DCF1EC;
+  padding: 5px 20px; }
+
+div img {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  padding: 0px 0px; }
+
+nav a {
+  text-decoration: none;
+  padding: 10px 0px;
   color: #ffffff;
-}
-nav a:hover{
-   color: #46C4A7;
- }
-@media (max-width:500px) {
-     header {
-         flex-direction: column;
-    
-    }
-     .logo{
-        padding: 25px 30px;
-    }
-    nav a:hover{
-        color: #46C4A7;
-    }
-}
-nav {
-    padding: 10px, 0px;
-    
-}
+  padding-right: 10px;
+  font-weight: 620;
+  font-size: 17px; }
 
+nav a:hover {
+  color: #46C4A7; }
 
-.imgPadel{
-    width: 700px;
-    padding-left: 265px;
-    padding-right: 300px;
-}
-#hero{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    height: 90vh;
-    color: white;
-    background-image:linear-gradient(0deg,
-    rgba(0,0,0,0.5),
-    rgba(0,0,0,0.5) ) ,url("../img/defrente.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
-.Caja {
-    font-size: 20px;
-    background-color:#000000;
-    padding: 1px;
-    margin: 20px;
-    border: 2.5px solid #ffffff;
-    border-bottom: 2.5px solid #ffffff;
-    color:#ffffff ;
-    text-align:center;
-}
+@media (max-width: 500px) {
+  header {
+    flex-direction: column; }
+  div {
+    padding: 25px 30px; }
+  nav a:hover {
+    color: #46C4A7; } }
 
-.imgPadel{
-    animation-delay: 0.1s;
-}
+h2 {
+  font-size: 40px;
+  padding: 10px;
+  margin: 10px;
+  border: 3px solid #ffffff;
+  border-bottom: 3px solid #ffffff;
+  color: #ffffff;
+  text-align: center; }
 
-.imgPaletas{
-    animation-delay: 0.3s;
-}
-#img-center{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
-}
+h1 {
+  font-size: 40px;
+  padding: 10px;
+  margin: 10px;
+  border: 3px solid #ffffff;
+  border-bottom: 3px solid #ffffff;
+  color: #ffffff;
+  text-align: center; }
 
-h2{
-    font-size: 40px;
-    padding: 10px;
-    margin: 10px;
-    border: 3px solid #ffffff;
-    border-bottom: 3px solid #ffffff;
-    color:#ffffff ;
-    text-align:center;
-}
-h1{
-    font-size: 40px;
-    padding: 10px;
-    margin: 10px;
-    border: 3px solid #ffffff;
-    border-bottom: 3px solid #ffffff;
-    color:#ffffff ;
-    text-align:center;
-}    
-#somos-proya .container{
-    text-align: center;
-    padding: 200px 12px;
-}
+#hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 90vh;
+  color: white;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/defrente.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
+
+div #img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px; }

@@ -1,0 +1,32 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    border: 5px solid black;
+    border-bottom: 5px solid black;
+    align-items: center;
+    color: #DCF1EC;
+    padding: 5px 20px;}
+    div{
+
+      img{
+        display: flex;
+        align-items: center;
+        height: 100px;  
+        padding: 0px 0px;}
+}
+nav{
+   
+    a{
+        text-decoration: none;
+        padding: 10px 0px;
+        color: #ffffff;
+        padding-right: 10px;
+        font-weight: 620;
+        font-size: 17px;
+    }
+
+    a:hover{
+    color: #46C4A7;
+  }
+}
