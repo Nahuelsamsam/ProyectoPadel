@@ -1,0 +1,9 @@
+@mixin flex {
+    font-size: 40px;
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid $color-primario;
+    border-bottom: 3px solid $color-primario;
+    color:$color-secundario;
+    text-align:center;
+    background-color: $color-terciario;}

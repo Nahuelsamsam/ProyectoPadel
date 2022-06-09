@@ -21,16 +21,16 @@ nav{
      
         text-decoration: none;
         padding: 10px 0px;
-        color: #ffffff;
+        color: $color-secundario;
         padding-right: 10px;
         font-weight: 620;
         font-size: 17px;
     }
 
     a:hover{
-    color: #46C4A7;
+    color: $color-primario;
   }
   .icon-telfono{
-    color: #ffffff;
+    color: $color-secundario;
   }
 }
