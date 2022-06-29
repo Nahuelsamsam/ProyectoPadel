@@ -74,8 +74,8 @@ h3 {
   text-align: center; }
 
 p {
-  font-size: 12px;
-  padding: 0%;
+  font-size: 13px;
+  padding: 1.5%;
   border: #000000;
   color: #ffffff;
   text-align: center;
@@ -117,3 +117,30 @@ div #img-center {
   margin-left: auto;
   margin-right: auto;
   padding: 20px; }
+
+  .buttons {
+    min-width: 500px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .buttons a {
+    text-decoration: none;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background:#000000;
+    color: #f1f1f1;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+  }
+  
+  .buttons a:hover {
+    transform: scale(1.2);
+  }
+
+  
+ 
