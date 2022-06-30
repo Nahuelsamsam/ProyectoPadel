@@ -37,13 +37,14 @@ nav a:hover {
 nav .icon-telfono {
   color: #ffffff; }
 
-@media (max-width: 500px) {
+@media (max-width: 630px) {
   header {
     flex-direction: column; }
   div {
-    padding: 25px 30px; }
+    padding: 10px 10px; }
   nav a:hover {
-    color: #46C4A7; } }
+    color: #46C4A7;}
+  }
 
 h2 {
   font-size: 40px;
@@ -67,8 +68,8 @@ h1 {
 
 h3 {
   font-size: 10px;
-  padding: 2px;
-  margin: 2px;
+  padding: 0px;
+  margin: 0px;
   background-color: #000000;
   color: #ffffff;
   text-align: center; }
@@ -141,6 +142,9 @@ div #img-center {
   .buttons a:hover {
     transform: scale(1.2);
   }
+footer{
 
+ 
+}
   
  

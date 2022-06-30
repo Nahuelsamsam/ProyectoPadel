@@ -28,24 +28,35 @@
 </header>
 <h2>Turnero Online</h2>
  
-<form action="" metohd="" enctype=""></form>
+<form>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Escribe tu nombre:</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nahuel">
+    <label for="exampleFormControlInput1">Escribe tu apellido:</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Sam Sam">
+    <label for="exampleFormControlInput1">Escribe tu email:</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="fulano@email.com">
    
-<label for="Nombre">Escribe tu nombre:</label>
-<input type="text" id="Nombre" name="Nombre" value="" placeholder="Nahuel">
-   
-<label for="Apellido">Escribe tu apellido:</label>
-<input type="text" id="Apellido" name="Apellido" value="" placeholder="Sam Sam">
-   
-<label for="number">Escribe la cantidad:</label>
-<input type="number" id="Numero" name="Numero" placeholder="horas">
-   
-<textarea name="Opinion" id="Opinion" cols="30" rows="10" placeholder="Escribe aqui algun requerimiento a tener en cuenta"></textarea>
-   
-<label for="SUSCRIBIRME" >ACEPTO</label>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Selecciona la cantidad de horas que desea jugar:</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>1 hora</option>
+      <option>1:30 horas</option>
+      <option>2 horas</option>
+      <option>2:30 horas</option>
+      <option>3 horas</option>
+    </select>
+  </div>
+ <div> 
+  <textarea name="Opinion" id="Opinion" cols="30" rows="10" placeholder="Escribe aqui algun requerimiento a tener en cuenta"></textarea>
+  <label for="SUSCRIBIRME" >ACEPTO</label>
 <input type="checkbox" name="suscribir" id="" value="SI">
    
 <input type="submit" placeholder="ENVIAR">
 <input type="reset" placeholder="BORRAR">
+</div> 
+</form>
 
 <footer>
   <div class="contenedor">
